@@ -1,0 +1,11 @@
+openai
+pandas
+python-dotenv
+jupyter
+ipykernel
+matplotlib
+scikit-learn
+jinja2
+pyyaml
+anthropic
+tiktoken
