@@ -24,20 +24,11 @@ This repository contains lab exercises, lecture materials, and sample data for a
 │   ├── Lab_1.4_Building_Prompt_Template_Libraries.ipynb
 │   ├── Lab_1.5_Cross_LLM_Portability.ipynb
 │   ├── Lab_2.1_Context_Window_Optimization.ipynb
-│   └── Lab_2.2_Stateful_Conversation_System.ipynb
-│
-├── Raw/                         # Original markdown lab materials
-│   ├── Lab_1.1_Baseline_Assessment_Complete.md
-│   ├── Lab_1.2_Prompt_Debugging_Optimization_Complete.md
-│   ├── Lab_1.3_Advanced_Few_Shot_Learning_Complete.md
-│   ├── Lab_1.4_Building_Prompt_Template_Libraries_Complete.md
-│   ├── Lab_1.5_Cross_LLM_Portability_Complete.md
-│   ├── Lab_2.1_Context_Window_Optimization_Complete.md
-│   ├── Lab_2.2_Stateful_Conversation_System_Complete_1.md
-│   └── [Additional lab materials...]
-│
-├── lectures/                    # Lecture scripts and materials
-│   └── Session_2_Lecture_Script_Advanced_Context_Engineering.md
+│   ├── Lab_2.2_Stateful_Conversation_System.ipynb
+│   ├── Lab_2.3_Multi_Document_Context_Management.ipynb
+│   ├── Lab_2.4_Dynamic_Context_Injection.ipynb
+│   ├── Lab_2.5_Advanced_Prompt_Chaining.ipynb
+│   └── Lab_2.6_Context_Aware_QA_System_Capstone.ipynb
 │
 ├── data/                       # Sample datasets for labs
 │   └── credit_applications.json
@@ -182,6 +173,50 @@ This repository contains lab exercises, lecture materials, and sample data for a
   - Production-ready conversation state managers
   - Token-efficient multi-turn conversation handling
 
+### Lab 2.3: Multi-Document Context Management
+- **Duration**: 50 minutes
+- **Difficulty**: ⭐⭐⭐⭐☆
+- **Topics**:
+  - Document chunking strategies (fixed-size, semantic)
+  - Cross-document entity tracking and linking
+  - Document relevance ranking (keyword + semantic)
+  - Multi-source answer synthesis
+  - Citation and source attribution
+  - Production document management systems
+
+### Lab 2.4: Dynamic Context Injection
+- **Duration**: 50 minutes
+- **Difficulty**: ⭐⭐⭐⭐☆
+- **Topics**:
+  - Query analysis and classification
+  - Semantic similarity matching with embeddings
+  - Hybrid retrieval (semantic + keyword)
+  - Re-ranking and relevance scoring
+  - Production context injection pipelines
+  - Query caching and optimization
+
+### Lab 2.5: Advanced Prompt Chaining
+- **Duration**: 50 minutes
+- **Difficulty**: ⭐⭐⭐⭐⭐
+- **Topics**:
+  - Sequential chain patterns (multi-step workflows)
+  - Parallel chain execution (concurrent processing)
+  - Conditional branching based on outputs
+  - Refinement chains (iterative improvement)
+  - Chain orchestration and management
+  - Error handling and fallback strategies
+
+### Lab 2.6: Context-Aware Q&A System (Capstone)
+- **Duration**: 60 minutes
+- **Difficulty**: ⭐⭐⭐⭐⭐
+- **Topics**:
+  - Integration of all Session 2 techniques
+  - Production-ready Q&A system architecture
+  - Multi-turn conversation with context management
+  - Intelligent context selection and injection
+  - System monitoring and health checks
+  - Deployment patterns and best practices
+
 ## 🔧 Key Technologies
 
 - **LLM**: OpenAI GPT-4
@@ -205,13 +240,13 @@ The `data/` folder contains:
    - Lab 1.4: Building Prompt Template Libraries
    - Lab 1.5: Cross-LLM Portability
 
-2. **Session 2**: Advanced Context Engineering
-   - Lab 2.1: Context Window Optimization
-   - Lab 2.2: Stateful Conversation Systems
-   - Lab 2.3: Multi-Document Context Management
-   - Lab 2.4: Dynamic Context Injection
-   - Lab 2.5: Advanced Prompt Chaining
-   - Lab 2.6: Context-Aware Q&A System (Capstone)
+2. **Session 2**: Advanced Context Engineering ✅
+   - Lab 2.1: Context Window Optimization ✓
+   - Lab 2.2: Stateful Conversation Systems ✓
+   - Lab 2.3: Multi-Document Context Management ✓
+   - Lab 2.4: Dynamic Context Injection ✓
+   - Lab 2.5: Advanced Prompt Chaining ✓
+   - Lab 2.6: Context-Aware Q&A System (Capstone) ✓
 
 ## 💡 Best Practices
 
@@ -253,7 +288,12 @@ For technical issues or questions about the labs:
 - **v1.0** (2026-02): Initial release with complete Session 1 (Labs 1.1-1.5)
 - **v1.1** (2026-02): Added Lab 2.1 - Context Window Optimization
 - **v1.2** (2026-02): Added Lab 2.2 - Stateful Conversation Systems
-- Additional labs and materials added progressively
+- **v2.0** (2026-02): **Complete Session 2 Release**
+  - Lab 2.3: Multi-Document Context Management
+  - Lab 2.4: Dynamic Context Injection
+  - Lab 2.5: Advanced Prompt Chaining
+  - Lab 2.6: Context-Aware Q&A System (Capstone)
+  - All Session 2 labs now complete with production-ready implementations
 
 ---
 
