@@ -51,8 +51,6 @@ ipython_config.py
 Thumbs.db
 
 # Project specific
-data/*.csv
-data/*.json
 outputs/
 *.log
 
