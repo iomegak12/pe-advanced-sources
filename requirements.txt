@@ -9,3 +9,10 @@ jinja2
 pyyaml
 anthropic
 tiktoken
+chromadb
+langchain
+langchain-openai
+langchain-core
+langchain-chroma
+langchain-community
+langchain-text-splitters
