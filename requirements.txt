@@ -16,3 +16,6 @@ langchain-core
 langchain-chroma
 langchain-community
 langchain-text-splitters
+ddgs
+ragas
+langgraph
